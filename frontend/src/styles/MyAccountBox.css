@@ -1,0 +1,41 @@
+.my-account-box {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 1rem;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+.my-account-box h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.my-account-box p {
+  margin: 0;
+}
+.my-account-box .credit {
+  margin: 0.5rem 0;
+}
+.my-account-box .highlight {
+  color: #007bff;
+  font-weight: bold;
+}
+.my-account-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.my-account-box ul li {
+  margin-bottom: 0.5rem;
+}
+.my-account-box ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.9rem;
+}
+.my-account-box ul li a.logout {
+  color: red;
+}
